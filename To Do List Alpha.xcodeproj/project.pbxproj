@@ -18,6 +18,8 @@
 		59D16507292BE7B400490494 /* PriorityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D16506292BE7B400490494 /* PriorityEnum.swift */; };
 		59D16509292BE80900490494 /* TaskGroupDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D16508292BE80900490494 /* TaskGroupDM.swift */; };
 		59D1650B292BE85B00490494 /* GroupTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1650A292BE85B00490494 /* GroupTypeEnum.swift */; };
+		59D1650E292BFAED00490494 /* NewTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1650C292BFAED00490494 /* NewTaskVC.swift */; };
+		59D1650F292BFAED00490494 /* NewTaskVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59D1650D292BFAED00490494 /* NewTaskVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		59D16506292BE7B400490494 /* PriorityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityEnum.swift; sourceTree = "<group>"; };
 		59D16508292BE80900490494 /* TaskGroupDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupDM.swift; sourceTree = "<group>"; };
 		59D1650A292BE85B00490494 /* GroupTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTypeEnum.swift; sourceTree = "<group>"; };
+		59D1650C292BFAED00490494 /* NewTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVC.swift; sourceTree = "<group>"; };
+		59D1650D292BFAED00490494 /* NewTaskVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTaskVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			children = (
 				59D164F9292B9FA200490494 /* HomeVC.swift */,
 				59D164FA292B9FA200490494 /* HomeVC.xib */,
+				59D1650C292BFAED00490494 /* NewTaskVC.swift */,
+				59D1650D292BFAED00490494 /* NewTaskVC.xib */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D1650F292BFAED00490494 /* NewTaskVC.xib in Resources */,
 				59D16501292BE64000490494 /* TaskTVC.xib in Resources */,
 				59D164F2292B9F6900490494 /* LaunchScreen.storyboard in Resources */,
 				59D164FC292B9FA200490494 /* HomeVC.xib in Resources */,
@@ -178,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D1650E292BFAED00490494 /* NewTaskVC.swift in Sources */,
 				59D16500292BE64000490494 /* TaskTVC.swift in Sources */,
 				59D164E6292B9F6700490494 /* AppDelegate.swift in Sources */,
 				59D16507292BE7B400490494 /* PriorityEnum.swift in Sources */,
